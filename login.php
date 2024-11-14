@@ -3,10 +3,6 @@ session_start();
 $errorMessage = $_SESSION['errorMessage'] ?? '';
 unset($_SESSION['errorMessage']); // 顯示後清除錯誤訊息
 ?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
